@@ -31,9 +31,9 @@ $body_details = "";
 $email_warnings = 0;
 
 if ( $debug >= 1 ) {
- $checkFile = "/tmp/access.test.json";
+ $checkFile = "/tmp/netsapiens_access.test.json";
 } else {
- $checkFile = "/tmp/access.json";
+ $checkFile = "/tmp/netsapiens_access.json";
 }
 
 if (file_exists($checkFile)) {
