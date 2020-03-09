@@ -14,3 +14,5 @@ I run it from /etc/crontab like so:
 # Check for changes to access table
 
 #* * *  *  * root /usr/local/scripts/monitor_access_table.php 0
+
+It creates a file in /tmp/ to track differences between the current db and the last time it ran.
