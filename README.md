@@ -12,6 +12,8 @@ It will send an if:
 I run it from /etc/crontab like so:
 
 # Run every minute to check for changes to NetSapiens access table
-* * *  *  * root /usr/local/scripts/monitor_access_table.php 0
+#* * *  *  * root /usr/local/scripts/monitor_access_table.php 0
+
+Remove the comment (#) from the above line.
 
 When the script runs, it pulls current info and saves it that data to a file in /tmp.  When it runs again, it pulls current info and compares that info to the file created last time it ran
