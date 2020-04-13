@@ -96,7 +96,7 @@ if ( $logins_json != $old_file_contents ) {
 if ( $body_details ) {
  $body = str_replace('%%body_details%%', $body_details, $body);
  if ( $debug >= 1 ) echo "$body\n";
- $to = $email
+ $to = $email;
  $from = $email;
  $subject = "Alert: System Admin Accounts Updated";
 
