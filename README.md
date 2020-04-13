@@ -2,7 +2,7 @@
 
 This php script can be run from crontab to monitor Admin accounts added to your NetSapiens system
 
-It will send an if:
+It will send an email if:
 
 1.	A new Admin User Account is added.
 2.	An email address is changed on an existing Admin user.
