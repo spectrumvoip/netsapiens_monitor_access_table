@@ -181,7 +181,7 @@ function send_csv_mail ($to='test@test.com', $body='Uknown Body', $subject='Unkn
 
 function get_data($db_data, $sql) {
 
- $returner = "";
+ $returner = [];
 
  $link = mysqli_connect($db_data['server'], $db_data['user'], $db_data['password'], $db_data['db']);
 
